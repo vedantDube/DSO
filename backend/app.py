@@ -6,6 +6,7 @@ app = Flask(__name__)
 CORS(app, resources={
     r"/*": {
         "origins": [
+            "https://dso-dusky.vercel.app",
             "https://dso-one.vercel.app",
             "https://dso.vercel.app",
             "http://localhost:3000",
