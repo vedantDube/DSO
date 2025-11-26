@@ -20,7 +20,7 @@ function App() {
   const handleGenerate = async () => {
     try {
       const res = await axios.post(
-        "https://dso-311z.onrender.com/modulate",
+        "https://dso-o1xd.onrender.com/modulate",
         inputs
       );
       setData(res.data);
