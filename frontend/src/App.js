@@ -20,12 +20,12 @@ function App() {
   const handleGenerate = async () => {
     try {
       const res = await axios.post(
-        "https://dso-atie.onrender.com/modulate",
+        "https://dso-311z.onrender.com/modulate",
         inputs
       );
       setData(res.data);
     } catch (error) {
-      alert("Server error. Is Python running?");
+      alert("Server error. Check if backend is running.");
     }
   };
 
